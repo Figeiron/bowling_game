@@ -2,7 +2,7 @@ import time
 from random import choice, randint
 from graph_theory.algorithms.BFS import BFS
 from graph_theory.algorithms.Algorithm import AlgorithmEventType
-
+from algorithms.DFS import DFS
 
 class Kick:
     def __init__(self, graph_controller, triangle):
@@ -45,7 +45,8 @@ class Kick:
             return
 
         print(f"Влучання у кеглю {pin_to_hit.id}!")
-        self.graph.add_algorithm(BFS)
+        algorithm = choice([BFS, DFS])
+        self.graph.add_algorithm(algorithm)
         self.graph.pick_vertex(pin_to_hit.pin_vertex)
         self.graph.init_algorithm()
         

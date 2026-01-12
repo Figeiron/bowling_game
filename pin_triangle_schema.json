@@ -1,0 +1,201 @@
+{
+  "directed": true,
+  "vertices": [
+    {
+      "name": "x1",
+      "x": 628,
+      "y": 500
+    },
+    {
+      "name": "x2",
+      "x": 708,
+      "y": 400
+    },
+    {
+      "name": "x3",
+      "x": 520,
+      "y": 400
+    },
+    {
+      "name": "x4",
+      "x": 610,
+      "y": 300
+    },
+    {
+      "name": "x5",
+      "x": 810,
+      "y": 300
+    },
+    {
+      "name": "x6",
+      "x": 413,
+      "y": 300
+    },
+    {
+      "name": "x7",
+      "x": 301,
+      "y": 200
+    },
+    {
+      "name": "x8",
+      "x": 506,
+      "y": 200
+    },
+    {
+      "name": "x9",
+      "x": 710,
+      "y": 200
+    },
+    {
+      "name": "x10",
+      "x": 865,
+      "y": 200
+    }
+  ],
+  "edges": [
+    {
+      "name": "v1",
+      "from": "x1",
+      "to": "x2",
+      "weight": 1
+    },
+    {
+      "name": "v2",
+      "from": "x1",
+      "to": "x3",
+      "weight": 1
+    },
+    {
+      "name": "v3",
+      "from": "x3",
+      "to": "x4",
+      "weight": 1
+    },
+    {
+      "name": "v4",
+      "from": "x2",
+      "to": "x4",
+      "weight": 1
+    },
+    {
+      "name": "v5",
+      "from": "x2",
+      "to": "x5",
+      "weight": 1
+    },
+    {
+      "name": "v6",
+      "from": "x5",
+      "to": "x10",
+      "weight": 1
+    },
+    {
+      "name": "v7",
+      "from": "x5",
+      "to": "x9",
+      "weight": 1
+    },
+    {
+      "name": "v8",
+      "from": "x4",
+      "to": "x9",
+      "weight": 1
+    },
+    {
+      "name": "v9",
+      "from": "x3",
+      "to": "x6",
+      "weight": 1
+    },
+    {
+      "name": "v10",
+      "from": "x6",
+      "to": "x7",
+      "weight": 1
+    },
+    {
+      "name": "v11",
+      "from": "x4",
+      "to": "x8",
+      "weight": 1
+    },
+    {
+      "name": "v12",
+      "from": "x6",
+      "to": "x8",
+      "weight": 1
+    },
+    {
+      "name": "v13",
+      "from": "x10",
+      "to": "x9",
+      "weight": 1
+    },
+    {
+      "name": "v13",
+      "from": "x9",
+      "to": "x10",
+      "weight": 1
+    },
+    {
+      "name": "v14",
+      "from": "x9",
+      "to": "x8",
+      "weight": 1
+    },
+    {
+      "name": "v14",
+      "from": "x8",
+      "to": "x9",
+      "weight": 1
+    },
+    {
+      "name": "v15",
+      "from": "x8",
+      "to": "x7",
+      "weight": 1
+    },
+    {
+      "name": "v15",
+      "from": "x7",
+      "to": "x8",
+      "weight": 1
+    },
+    {
+      "name": "v16",
+      "from": "x5",
+      "to": "x4",
+      "weight": 1
+    },
+    {
+      "name": "v16",
+      "from": "x4",
+      "to": "x5",
+      "weight": 1
+    },
+    {
+      "name": "v17",
+      "from": "x4",
+      "to": "x6",
+      "weight": 1
+    },
+    {
+      "name": "v17",
+      "from": "x6",
+      "to": "x4",
+      "weight": 1
+    },
+    {
+      "name": "v18",
+      "from": "x2",
+      "to": "x3",
+      "weight": 1
+    },
+    {
+      "name": "v18",
+      "from": "x3",
+      "to": "x2",
+      "weight": 1
+    }
+  ]
+}
